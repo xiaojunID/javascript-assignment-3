@@ -22,7 +22,10 @@ This assignment will be covering [`while`] loops, [`do...while`] loops, [creatin
 
 1. Write a [`do...while`] loop to create 3 divs. The div classes will be "**mountain-cap-1**", "**mountain-cap-2**", and "**mountain-cap-3**". Append each of these divs to the previously created "mountain-top" div from step 8.
 
-### What the HTML should look like when you're done is:
+### What the HTML should look like when you're done.
+
+Remember, you're producing this HTML using JS. You cannot edit any file other than the `script.js` file.
+
 ```HTML
 <div class="view">
     <div class="grass"></div>
