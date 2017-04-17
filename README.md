@@ -1,10 +1,10 @@
 # Javascript Assignment #3
 
-This assignment will be covering `while` loops, `do...while` loops, creating new HTML elements, and appending HTML elements to an HTML file via Javascript.
+This assignment will be covering [`while`] loops, [`do...while`] loops, [creating new HTML elements][createElement], and [appending HTML elements][appendChild] to an HTML file via Javascript.
 
 ## Assignment
 
-1. Fork this repo.
+1. [Fork this repo][fork].
 
 1. Only code inside the file named `script.js`. No editing any other files.
 
@@ -14,13 +14,13 @@ This assignment will be covering `while` loops, `do...while` loops, creating new
 
 1. Create a `div` element with a class name of "**sun**" and append it to the previously created "view" div from step 3.
 
-1. Write a [`while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) loop to create 5 divs. The div classes will be "**ray-1**", "**ray-2**", "**ray-3**", "**ray-4**", and "**ray-5**". Append each of these divs to the previously created "sun" div from step 5.
+1. Write a [`while`] loop to create 5 divs. The div classes will be "**ray-1**", "**ray-2**", "**ray-3**", "**ray-4**", and "**ray-5**". Append each of these divs to the previously created "sun" div from step 5.
 
 1. Create a `div` element with a class name of "**mountain**" and append it to the previously created "view" div from step 3.
 
 1. Create a `div` element with a class name of "**mountain-top**" and append it to the previously created "mountain" div from step 7.
 
-1. Write a [`do...while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while) loop to create 3 divs. The div classes will be "**mountain-cap-1**", "**mountain-cap-2**", and "**mountain-cap-3**". Append each of these divs to the previously created "mountain-top" div from step 8.
+1. Write a [`do...while`] loop to create 3 divs. The div classes will be "**mountain-cap-1**", "**mountain-cap-2**", and "**mountain-cap-3**". Append each of these divs to the previously created "mountain-top" div from step 8.
 
 ### What the HTML should look like when you're done is:
 ```HTML
@@ -47,3 +47,9 @@ This assignment will be covering `while` loops, `do...while` loops, creating new
 ### The HTML page should produce an image like so:
 
 ![output](output.png)
+
+[`while`]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+[`do...while`]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while
+[createElement]: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+[appendChild]: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+[fork]: https://github.com/karbassi-id/javascript-assignment-3/fork
